@@ -1,0 +1,209 @@
+<!--Tema default-->
+<head>
+<!--head-->
+<title>MG2SO4</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="explt/favicon.png" rel="icon" type="image/png"/>
+<link href="explt/favicon.png" rel="shortcut icon" type="image/png"/>
+<link href="//db.onlinewebfonts.com/c/623c7118249e082fe87a78e08506cb4b?family=Segoe+UI" rel="stylesheet" type="text/css"/>
+<link href="//db.onlinewebfonts.com/c/1db29588408eadbd4406aae9238555eb?family=Consolas" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="sd/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<!--head-->
+
+<!--style-->
+<style>
+body {margin: 0;font-family: Arial, Helvetica, sans-serif;}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(92,7,7); 
+  border-radius: 10px;
+}
+body {overflow-x: hidden;}
+*{margin: 0px auto;}
+html,body{height: 100%;}
+</style>
+<!--style-->
+</head>
+
+<body class="w3-light-grey">
+    <!--awal header-->
+    <div>
+        <h1 style="text-align: center;font-family: 'Segoe UI';font-size:4vw;">MG2SO4 <img src="explt/favicon.png" height="30px" width="30px" style="width:4.7vw;height:4.7vw;"></h1>
+    </div>
+    <!--akhir header-->
+
+    <!--awal navigasi-->
+    <nav class="navbar navbar-inverse" style="background-color:rgb(92,7,7);">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span> 
+        </button>
+        <a class="navbar-brand" href="https://magnesiumsulfat04.000webhostapp.com" style="color:#fff;">Home</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#">Tentang</a></li>
+          <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="background-color:rgb(92,7,7); color:#fff;">Laman
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu" style="background-color:#fff; color:black;">
+            <li><a href="https://magnesiumsulfat04.000webhostapp.com/create.html"style="background-color:#fff; color:black;">Buat Laman</a></li>
+            <li><a href="https://magnesiumsulfat04.000webhostapp.com/editrow.html"style="background-color:#fff; color:black;">Edit Laman</a></li>
+            <li><a href="https://magnesiumsulfat04.000webhostapp.com/ltg.html"style="background-color:#fff; color:black;">Permintaan Listing</a></li>
+          </ul>
+          </li>
+          <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="background-color:rgb(92,7,7); color:#fff;">Blog
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu" style="background-color:#fff; color:black;">
+            <li><a href="blgbru.php"style="background-color:#fff; color:black;">Blog Baru</a></li>
+            <li><a href="#"style="background-color:#fff; color:black;">Edit Blog</a></li>
+            <li><a href="#"style="background-color:#fff; color:black;">Tema</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Buat Forum</a></li> 
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="background-color:rgb(92,7,7); color:#fff;">Aplikasi
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu" style="background-color:#fff; color:black;">
+            <li><a href="#"style="background-color:#fff; color:black;">Permintaan Aplikasi</a></li>
+            <li><a href="#"style="background-color:#fff; color:black;">Data Center</a></li>
+            <li><a href="#"style="background-color:#fff; color:black;">Kebijakan</a></li>
+          </ul>
+        </li>
+          <li><a href="#">Avedex</a></li> 
+  
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+        <form class="navbar-form navbar-left" action = "vbaru.php" method="POST">
+        <div class="form-group">
+          <input type="text" class="form-control"  placeholder="Cari.." name = "indx" id="skates" required pattern="[A-Z0-9 ]+">
+          <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+        </div>
+       
+      </form>
+    </div>
+        </ul>
+      </div>
+    </div>
+ </nav>
+<!--akhir navigasi-->
+
+<!--awal badan-->
+<div class="utama">
+ <div class="container">
+  <div class="jumbotron">
+    <h1>JUDUL</h1> 
+    <p>SUB JUDUL</p> 
+    <h6 id="date">
+      <!--tanggal-->
+      <script>
+      n =  new Date();
+      y = n.getFullYear();
+      m = n.getMonth() + 1;
+      d = n.getDate();
+      document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
+      </script>
+    </h6>
+    <!--KODE-->
+    <h6>
+    <?php 
+    $current_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; 
+    $name = basename($current_link);
+    echo str_replace(".php","",$name);
+    $sigma = str_replace(".php","",$name);
+    $faded = str_replace(".php","",$name);
+    ?>
+    </h6>
+    <?php
+    $handle = fopen("iew/{$sigma}.txt","w+");
+    fclose($handle);
+    $currente = file_get_contents("iew/{$sigma}.txt");
+    $currente .= "view\n";
+    file_put_contents("iew/{$sigma}.txt", $currente);
+    ?>
+    <h6>
+    <?php 
+    $fmf = file("iew/{$sigma}.txt");
+    $sesdf = count($fmf);
+    echo "view : ".$sesdf;
+    ?>
+    </h6>
+    <!--KODE-->
+  </div>
+  <!--Anda dapat menulis dibagian ini-->
+  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
+  <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p> 
+</div>
+<br><!--baris baru-->
+<!--Gambar default-->
+<!--<img src=link gambar alt=teks alternatif style="text-align: align left/right/center ;width: lebar gambar(hapus jika ukuran asli);height:tinggi gambar(hapus jika ukuran asli);">-->
+
+<!--Buat paragraf-->
+<!--<p>isi paragraf<p>-->
+
+<!--Buat daftar-->
+<!--<ul>isi paragraf
+    <li>daftar 1</li>
+    
+    </ul>-->
+
+<!--Buat Text ditengah-->
+<!--<p style="text-align:center">text</p>-->
+
+</div>
+<!--akhir badan-->
+<!--awal komentar-->
+<fieldset style="margin-left:10%; margin-right:10%; margin-top:10px;">
+  <form method="POST" action = <?php echo "kom/{$faded}.php"; ?>>
+  <div class="form-group" style="text-align:center;">
+  <input type="text" name="usr" placeholder="nama" required pattern="[a-zA-Z0-9]+" style="width:10%" value=<?php 
+    if(isset($_COOKIE["ese"])){
+      echo trim($_COOKIE["ese"]);
+    }
+  ?>>
+  <input type="text" name="infos" placeholder="ketik disini" autocomplete="off"/><button type="submit" class="btn btn-danger" href="kommentsd.html">Kirim</button><br>
+  <br>
+  <?php 
+  if(file_exists("kom/{$faded}.txt")){
+    $kontexs = file("kom/{$faded}.txt");
+                foreach(array_reverse($kontexs) as $linesd){
+                ?>
+                <p style="text-align:left;font-size:100%;"><?php echo $linesd; ?></p><hr>
+            <?php } ?><?php
+  }else{
+    die("Tidak Ketemu"); 
+  }
+  ?>
+</div>
+</form>
+  </fieldset>
+<!--akhir komentar-->
+<!--awal footer-->
+<div class="footer" style="background-color: rgba(250, 236, 207, 0.959);">
+   <div style="background-color: rgba(92, 7, 7);">
+    <li style="list-style-type:none;padding:3px;padding-top: 10px;"><a href="https://magnesiumsulfat04.000webhostapp.com/kb/kontakb.html" style="text-decoration:none; color:rgb(255, 255, 255);">Kontak Admin</a></li>
+    <br>
+  </div>
+  <br style="height: 1px;color: #123455;background-color: #123455;border: none;">
+    <li style="list-style-type:none;padding:3px;"><a href="#" style="text-decoration:none; color:rgb(92,7,7);">Tentang situs ini</a></li>
+    <hr>
+    <li style="list-style-type:none;padding:3px;"><a href="#" style="text-decoration:none; color:rgb(92,7,7);">&#169 2020 MG2SO4</a></li>
+    <br>
+  </div>
+<!--akhir footer-->
+</body>

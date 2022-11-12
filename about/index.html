@@ -1,0 +1,147 @@
+        <!--Tema default-->
+        <head>
+            <!--head-->
+            <title>MG2SO4</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link href="favicon.png" rel="icon" type="image/png"/>
+            <link href="favicon.png" rel="shortcut icon" type="image/png"/>
+            <link href="//db.onlinewebfonts.com/c/623c7118249e082fe87a78e08506cb4b?family=Segoe+UI" rel="stylesheet" type="text/css"/>
+            <link href="//db.onlinewebfonts.com/c/1db29588408eadbd4406aae9238555eb?family=Consolas" rel="stylesheet" type="text/css"/>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+            <link rel="stylesheet" href="w3.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+            <!--head-->
+            
+            <!--style-->
+            <style>
+            body {margin: 0;font-family: Arial, Helvetica, sans-serif;}
+            ::-webkit-scrollbar {
+              width: 10px;
+            }
+            ::-webkit-scrollbar-track {
+              box-shadow: inset 0 0 5px grey; 
+              border-radius: 10px;
+            }
+            ::-webkit-scrollbar-thumb {
+              background: rgb(92,7,7); 
+              border-radius: 10px;
+            }
+            body {overflow-x: hidden;}
+            *{margin: 0px auto;}
+            html,body{height: 100%;}
+            </style>
+            <!--style-->
+            </head>
+            <style>img[alt="www.000webhost.com"]{display:none;}</style>
+            <body class="w3-light-grey">
+                <!--awal header-->
+                <div class="mySlides w3-display-container w3-center">
+                    <img src="sld/la.png" style="width:100%">
+                  </div>
+                  <div class="mySlides w3-display-container w3-center">
+                    <img src="sld/ny.png" style="width:100%">
+                    <div class="w3-display-middle w3-container w3-text-white w3-padding-32">
+                      <h3>Blog</h3>
+                      <p><b>Mg(s) + 2H2SO4 (aq) -> 2MgSO4(aq) + 2H2(g) E. Mg(s) + H2SO4(aq) -> MgSO4(aq) + H2(g)</b></p>   
+                    </div>
+                  </div>
+                
+                <!--akhir header-->
+                <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+                    <h2 class="w3-wide">Tentang</h2>
+                    <p class="w3-opacity"><i>Blog Anonim</i></p>
+                    <p class="w3-justify">This site is a place for anonymous submission of opinions, writings and content. this site will be regularly updated (Long Time Service). In the alpha version opening stage until release. For the time being, all data (Photos and Videos) are obtained by linking up to the opening of the data center.</p>
+                    <div class="w3-row w3-padding-32">
+                      <div class="w3-third">
+                        <p>Laman</p>
+                        <img src="sld/lage.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+                      </div>
+                      <div class="w3-third">
+                        <p>Blog</p>
+                        <img src="sld/seed.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+                      </div>
+                      <div class="w3-third">
+                        <p>Forum</p>
+                        <img src="sld/sdf.png" class="w3-round" alt="Random Name" style="width:60%">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="w3-container w3-content w3-padding-10s" style="max-width:800px" id="contact">
+                    <p class="w3-large w3-center"><a href="http://mg2so4.tk/kb/kontakb.html">Kontak</a></p>
+                  </div>
+                
+                  <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+                   <a href="https://www.instagram.com/imamalysn/">
+                    <i class="fa fa-instagram w3-hover-opacity"></i>
+                   </a>
+                    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+                    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+                    <i class="fa fa-twitter w3-hover-opacity"></i><br><br>
+                    <p class="w3-high">	&#169; Magnesium Sulfat04</p>
+                    <p class="w3-medium">Follow @imamalysn</p>
+                    <p class="w3-medium">Powered by w3.css</p>
+                  </footer>
+                  
+                  <script>
+                    // Automatic Slideshow - change image every 4 seconds
+                    var myIndex = 0;
+                    carousel();
+                    
+                    function carousel() {
+                      var i;
+                      var x = document.getElementsByClassName("mySlides");
+                      for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";  
+                      }
+                      myIndex++;
+                      if (myIndex > x.length) {myIndex = 1}    
+                      x[myIndex-1].style.display = "block";  
+                      setTimeout(carousel, 4000);    
+                    }
+                    
+                    // Used to toggle the menu on small screens when clicking on the menu button
+                    function myFunction() {
+                      var x = document.getElementById("navDemo");
+                      if (x.className.indexOf("w3-show") == -1) {
+                        x.className += " w3-show";
+                      } else { 
+                        x.className = x.className.replace(" w3-show", "");
+                      }
+                    }
+                    
+                    // When the user clicks anywhere outside of the modal, close it
+                    var modal = document.getElementById('ticketModal');
+                    window.onclick = function(event) {
+                      if (event.target == modal) {
+                        modal.style.display = "none";
+                      }
+                    }
+                    </script>
+                    
+                
+                <!--awal navigasi-->
+          
+            <!--akhir navigasi-->
+            
+           
+            <!--Gambar default-->
+            <!--<img src=link gambar alt=teks alternatif style="text-align: align left/right/center ;width: lebar gambar(hapus jika ukuran asli);height:tinggi gambar(hapus jika ukuran asli);">-->
+            
+            <!--Buat paragraf-->
+            <!--<p>isi paragraf<p>-->
+            
+            <!--Buat daftar-->
+            <!--<ul>isi paragraf
+                <li>daftar 1</li>
+                
+                </ul>-->
+            
+            <!--Buat Text ditengah-->
+            <!--<p style="text-align:center">text</p>-->
+            
+            </div>
+            <!--akhir badan-->
+            </body>    
