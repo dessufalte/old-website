@@ -1,0 +1,154 @@
+Riwayat versi:
+V 0.14.0.1
+-Pembukaan data center
+-Sertifikat SSL
+-Perubahan Domain (http://mg2so4.tk/ menjadi https://mg2so4.tk/)
+-Perbaikan bug pada blog dan beranda
+-Pengoptimalan kinerja situs
+V 0.13.0.2
+-Perapian struktur blog
+-Perbaikan detail-detail dan bug kecil
+-Perbaikan bug Beranda dan thubmnail
+-Pembukaan Server data (belum bisa diakses)
+-Penambahan Tanggal deskripsi
+-Fitur Menyembunykan Kode laman
+V 0.13.0.1
+-Fitur Edit Blog
+-Perbaikan tema default blog
+-Penguncian halaman (agar tidak dapat diedit)
+-Fitur Listing
+-Halaman About (follow => @imamalysn)
+-Halaman Manual
+-Tema 4.0
+V 0.12.0.1
+-Fitur Riwayat pembuatan laman dan perbaikan Terbaru
+-Perubahan Metode Pembuatan laman
+-Halaman Cooming Soon
+-Fitur Verified
+V 0.11.0.2
+-Filter Komentar dan laman
+-Perubahan halaman kode numeric untuk laman
+-Fitur Cookies pada komentar
+-Perbaikan bug overload laman
+-Pembatasan pembuatan blog
+-Perbaikan beberapa detail tema default
+-Perbaikan Beberapa bug pencarian
+-Perbaikan bug Post Kode yang overload
+V 0.11.0.1
+-Filter Blog
+-Perbaikan blog komentar
+-Perubahan tema default
+-Fitur Cookies memudahkan pengisian blog
+-Tema Blog 3.0
+V 0.10.1.1
+-Post Populer hanya menampung 5 + rata-rata view total
+-Perbaikan bug Deskripsi
+V 0.10.0.1
+-Penambahan fitur komentar pada blog
+-Penambahan fitur Tema Blog
+-Perbaikan tema default blog
+-Perbaikan fitur perhitungan view
+-Perbaikan fitur Post Populer
+-Tema Blog 2.1
+V 0.9.1.1
+-Perbaikan tema default blog
+-Tema Blog 2.0
+V 0.9.0.1
+-Perbaikan bug deskripsi
+-Penambahan fitur Post Populer
+-Penambahan fitur Forum
+-Penghitungan jumlah view blog
+V 0.8.0.1
+-Penambahan Post Kode
+-Perbaikan Tema default blog
+- Tema Blog 1.1
+V 0.7.1.2
+-Halaman Pengalihan blog
+-Perbaikan bug edit laman
+V 0.7.1.1
+-Fitur pencari dapat mencari blog
+-Blog berakhiran B pada kode alphanumeric
+-Pembatasan kode alphanumeric menjadi 5 digit kode unik dan huruf B
+-Perbaikan Bug ketika mencari blog
+V 0.7.0.1
+-Penetapan tema default blog
+-Perubahan fitur dari kode alphanumeric
+-Perbaikan bug ketika mengakses blog
+-Tema Blog 1.0
+-Fitur penghapusan spasi saat mencari laman
+V 0.6.0.1
+-Perbaruan tampilan beranda
+-Perubahan Navigasi
+-Perubahan Footer
+V 0.5.1.1
+-Penggabungan fitur blog dan laman. Blog dapat diakses melalui beranda
+-Perbaikan bug dan error pada pembuatan blog
+-Perbaikan Masalah kontak
+V 0.5.0.2
+-Perbaikan bug Terbaru
+-Perubahan Beranda Blog (Postingan Terbaru Pertama kali dimuat)
+V 0.5.0.1
+-Fitur blog
+-Perbaikan bug beranda dan tombol navigasi
+-Pembaruan berikutnya difokuskan untuk blog
+V 0.4.2.1
+-Pembaruan Edit
+-Sekarang dapat memperbaharui laman
+-Perbaikan Bug Beranda
+-Pembaruan kontak (Sekarang menggunakan email)
+V 0.4.1.1
+-Pembaruan Responsive
+-Perbaruan Buat Halaman
+-Fitur baru "Tidak menambahkan ke Terbaru"
+-Perbaikan bug Buat Halaman
+V 0.4.0.2
+-Pembaruan Responsive
+-Peringatan Covid-19
+-Perbaikan bug Viewer
+-Perbaikan komentar
+-Perbaikan Pengumuman
+-Perbaikan bug Terbaru
+V 0.4.0.1
+-Pembaruan Responsive
+-Mengubah letak "Pencari"
+-Perbaikan bug footer
+-Perbaikan font
+-Perbaikan icons
+V 0.3.2.2
+-Menambahkan line komentar
+-Menghapus autocomplete komentar
+-Menukar warna pengumuman
+V 0.3.2.1
+-Menambahkan "Komentar"
+-Menambahkan fitur tata halaman dan warna
+-Memperbarui "VIEWER"
+-Perbaikan bug membuat laman
+-Perbaikan bug footer "VIEWER"
+-Menambahkan horizontal scrollbar "VIEWER"
+V 0.2.1
+-Memperbarui navigasi
+-Memperbarui footer
+-Menambahkan "Edit Laman"
+-Menambahkan "Pengumuman"
+-Memperbarui copyright
+-Perbaikan bug "Terbaru"
+-Perbaikan bug "Pembuatan laman"
+V 0.1.4
+-Menambahkan navigasi
+-Menambahkan "Terbaru"
+-Perbaikan bug footer
+-Perbaikan bug "icon"
+-Menghapus autocomplete pencarian
+V 0.1.3
+-Menambahkan fitur "Buat laman"
+-Menambahkan footer dan copyright
+-Perbaikan bug "feedback"
+-Perbaikan bug "Pencarian"
+V 0.1.2
+-Menambahkan fitur "feedback"
+V 0.1.1
+-Rilis web "www.magnesiumsulfat04.000webhostapp.com"
+-Menambahkan fitur pencarian
+-Menambahkan VIEWER
+V 0.1.0
+-Memperbaiki halaman lists

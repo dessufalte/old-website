@@ -1,0 +1,1 @@
+<li class="w3-padding-16"><img src class="w3-left w3-margin-right" onerror="if (this.src != 'thm/THUMB.png') this.src = 'thm/THUMB.png';" style="width:50px"><span class="w3-large"></span><br><span></span></li>  

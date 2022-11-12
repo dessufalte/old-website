@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Edit</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="favicon.png" rel="icon" type="image/png"/>
+<link href="favicon.png" rel="shortcut icon" type="image/png"/>
+<link href="//db.onlinewebfonts.com/c/623c7118249e082fe87a78e08506cb4b?family=Segoe+UI" rel="stylesheet" type="text/css"/>
+<link href="//db.onlinewebfonts.com/c/1db29588408eadbd4406aae9238555eb?family=Consolas" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: rgb(92, 7, 7);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(146, 32, 32);
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.container {
+            max-width: 820px;
+            margin: 0px auto;
+            margin-top: 50px;
+        }
+
+        .comment {
+            float: left;
+            width: 100%;
+            height: auto;
+        }
+
+        .commenter {
+            float: left;
+        }
+
+        .commenter img {
+            width: 35px;
+            height: 35px;
+        }
+
+        .comment-text-area {
+            float: left;
+            width: 100%;
+            height: auto;
+        }
+
+        .textinput {
+            float: left;
+            width: 100%;
+            min-height: 75px;
+            outline: none;
+            resize: none;
+            border: 1px solid grey;
+        }
+</style>
+<body>
+<br>
+<strong><h3 style="text-align: center;">Edit Laman</h3></strong>
+<div style="margin:25%;margin-top:8vw;" class="form-group">
+  <form action="edfts.php" method="POST">
+    <label for="fname">Kode</label>
+    <input type="text" id="fname" name="emlgsd" required pattern="[0-9]+">
+    <input type="submit" value="Masuk" class="btn btn-danger">
+  </form><br>
+  <div class="alert alert-info">
+    <strong>Peraturan</strong><br> 
+    <li>Tidak berlaku untuk blog</li>
+    <li>Kode dengan akhiran BS/AP/LI tidak dapat di edit</li>
+    <li>Untuk permintaan aplikasi silahkan hubungi admin</li>
+  </div>
+</div>
+</body>
+</html>
